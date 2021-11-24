@@ -1,0 +1,6 @@
+module LCCChinaIP {
+  umbrella header "LCCChinaIP-umbrella.h"
+
+  export *
+  module * { export * }
+}

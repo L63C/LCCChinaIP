@@ -1,0 +1,6 @@
+module Pods_LCCChinaIP_Example {
+  umbrella header "Pods-LCCChinaIP_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "LCCChinaIP",
+  "version": "0.1.0",
+  "summary": "A short description of LCCChinaIP.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lu63chuan@163.com/LCCChinaIP",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lu63chuan@163.com": "lu63chuan@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lu63chuan@163.com/LCCChinaIP.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LCCChinaIP/Classes/**/*",
+  "resource_bundles": {
+    "LCCChinaIP": [
+      "LCCChinaIP/Assets/*"
+    ]
+  }
+}

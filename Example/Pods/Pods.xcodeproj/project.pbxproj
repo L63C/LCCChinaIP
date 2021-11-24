@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06234870F347D05EFE481AD4F62BCCA2 /* IPSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA28D2434121D8A2CE3778F67441EF4A /* IPSource.bundle */; };
+		3B15514F7BD84599EBAAA5FACD0E9D1C /* Pods-LCCChinaIP_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C254A544B0FBFC72864A31BCE24A13C9 /* Pods-LCCChinaIP_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B5F19608F10D1602F86B8EB3E8AE31A /* IPTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251AD1AFE2A1D7737EAC55B606BB7C4 /* IPTools.swift */; };
+		95B4B167DF6B4CB63A852388C12750AA /* LCCChinaIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E7D5A8DDAE5F46EA51181F5688945D /* LCCChinaIP.swift */; };
+		CE4CF61847EB68717AE8009C108A9C37 /* LCCChinaIP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C54F3AFA981B0868EA0CD535439F733 /* LCCChinaIP-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CEE94E260CF981257C22AE8806F98F91 /* LCCChinaIP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABF2FA97C0D710EFEB4F6F97C06E9F /* LCCChinaIP-dummy.m */; };
+		E532EF0B12D487F3E4F313B05383055C /* Pods-LCCChinaIP_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D428522BAB3BBB34BF9ABB58DA0D73E3 /* Pods-LCCChinaIP_Tests-dummy.m */; };
+		EE184063C315F04D695DC2060E06533F /* Pods-LCCChinaIP_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4248BC1ED4E73A7503BE4751B2F65DE2 /* Pods-LCCChinaIP_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0824AFB594BDA89944A8A21D0A29484B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C8C4ACAEA559006CA3E3581A6C4DB9;
+			remoteInfo = LCCChinaIP;
+		};
+		C6EB7DBB880D5E8E2ED2A321633623C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8948FB5904812930DC395DED24D78F8F;
+			remoteInfo = "LCCChinaIP-LCCChinaIP";
+		};
+		D732ECB5D711003A03BC08A228B3A4D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24044066A129995D51C4C7BE45F7977B;
+			remoteInfo = "Pods-LCCChinaIP_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A8AE2BC5FB7FE7C41786923B9D06B49 /* ResourceBundle-LCCChinaIP-LCCChinaIP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LCCChinaIP-LCCChinaIP-Info.plist"; sourceTree = "<group>"; };
+		4248BC1ED4E73A7503BE4751B2F65DE2 /* Pods-LCCChinaIP_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCCChinaIP_Example-dummy.m"; sourceTree = "<group>"; };
+		4AEDAA1E3A5C3C84513B5B6DDE60CEBD /* Pods-LCCChinaIP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCChinaIP_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5013556E612F7A95DEBF8BC31E89AE3E /* LCCChinaIP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LCCChinaIP.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		50ABF2FA97C0D710EFEB4F6F97C06E9F /* LCCChinaIP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCCChinaIP-dummy.m"; sourceTree = "<group>"; };
+		5335AADA8468231B8C13F9FA707CC3B5 /* Pods-LCCChinaIP_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCChinaIP_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57E7D5A8DDAE5F46EA51181F5688945D /* LCCChinaIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCCChinaIP.swift; path = LCCChinaIP/Classes/LCCChinaIP.swift; sourceTree = "<group>"; };
+		6B0955916A908844C45592C796B95D56 /* Pods-LCCChinaIP_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-LCCChinaIP_Example"; path = "libPods-LCCChinaIP_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2562F3CD4E65854EC0355A3C670072 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		77CEF060B0C7017D5DF80CDAC04370B8 /* Pods-LCCChinaIP_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCCChinaIP_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81AFE3FE531F532BBFF0193AF41AAE74 /* Pods-LCCChinaIP_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCCChinaIP_Example-resources.sh"; sourceTree = "<group>"; };
+		81C48507437253F58BB2E6BC46954F0F /* Pods-LCCChinaIP_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCChinaIP_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C54F3AFA981B0868EA0CD535439F733 /* LCCChinaIP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCCChinaIP-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1BFD1CA080F88EF2B59B3D5DF3D0204 /* LCCChinaIP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCCChinaIP.modulemap; sourceTree = "<group>"; };
+		B2169356B2C07322B765F08B1C085B2D /* Pods-LCCChinaIP_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCChinaIP_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B42C5208822320EF76C2722F11702F7E /* Pods-LCCChinaIP_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-LCCChinaIP_Tests"; path = "libPods-LCCChinaIP_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B68EF9EBBB8BAA04A23D77CF07F830 /* LCCChinaIP */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = LCCChinaIP; path = libLCCChinaIP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE02A6EE41BCE968DE351E5BEB2FA1A8 /* Pods-LCCChinaIP_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCCChinaIP_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C254A544B0FBFC72864A31BCE24A13C9 /* Pods-LCCChinaIP_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCCChinaIP_Example-umbrella.h"; sourceTree = "<group>"; };
+		D428522BAB3BBB34BF9ABB58DA0D73E3 /* Pods-LCCChinaIP_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCCChinaIP_Tests-dummy.m"; sourceTree = "<group>"; };
+		D49933B30CA7EF5FDD5D3EA792D410D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D4C85029812DCC3888152D5E78F26E98 /* LCCChinaIP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCCChinaIP-prefix.pch"; sourceTree = "<group>"; };
+		D711D8196A176F58AD321797E3AB2EE8 /* Pods-LCCChinaIP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCChinaIP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA28D2434121D8A2CE3778F67441EF4A /* IPSource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IPSource.bundle; path = LCCChinaIP/Assets/IPSource.bundle; sourceTree = "<group>"; };
+		DAEA97307CB2BDDF7D944DF0DC6CC5C1 /* LCCChinaIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCCChinaIP.debug.xcconfig; sourceTree = "<group>"; };
+		DB0D0AFE262D439E65D5BA514E23632F /* LCCChinaIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCCChinaIP.release.xcconfig; sourceTree = "<group>"; };
+		DDC7C2FFCBCB8C1ED05C6938BEC9172A /* Pods-LCCChinaIP_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCCChinaIP_Example.modulemap"; sourceTree = "<group>"; };
+		F251AD1AFE2A1D7737EAC55B606BB7C4 /* IPTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IPTools.swift; path = LCCChinaIP/Classes/IPTools.swift; sourceTree = "<group>"; };
+		F2740C74963E610243B56F3D0D58744B /* Pods-LCCChinaIP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCChinaIP_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F8A54C1F798F697C4A30A6AB19163E4B /* LCCChinaIP-LCCChinaIP */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "LCCChinaIP-LCCChinaIP"; path = LCCChinaIP.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BC2396BC51E9D1FC779B4F8514005B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956D53C87A8B989556924D3196232153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BB7976D69B584DC9BCE9C765E2E43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF978967544A71624DC917EA896C3AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1683B2614720C10B87B35507921909FC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5E408068285537B8A0621807EFDD1F6 /* Pods-LCCChinaIP_Example */,
+				ADA42CEE4A9599F9A1DF569D733BEDFD /* Pods-LCCChinaIP_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		214E7CC4C4FFD5EECDF147628DBE250E /* LCCChinaIP */ = {
+			isa = PBXGroup;
+			children = (
+				DA28D2434121D8A2CE3778F67441EF4A /* IPSource.bundle */,
+				F251AD1AFE2A1D7737EAC55B606BB7C4 /* IPTools.swift */,
+				57E7D5A8DDAE5F46EA51181F5688945D /* LCCChinaIP.swift */,
+				74056DA0D69E84B495A129100C2065EA /* Pod */,
+				A7AC5B39D700E7A6CB9BB7E2F13D7917 /* Support Files */,
+			);
+			name = LCCChinaIP;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		405F250A954C385D64A877FFFB8938E1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				214E7CC4C4FFD5EECDF147628DBE250E /* LCCChinaIP */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		45079FBDE81EF27A216C524C4AED2F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B68EF9EBBB8BAA04A23D77CF07F830 /* LCCChinaIP */,
+				F8A54C1F798F697C4A30A6AB19163E4B /* LCCChinaIP-LCCChinaIP */,
+				6B0955916A908844C45592C796B95D56 /* Pods-LCCChinaIP_Example */,
+				B42C5208822320EF76C2722F11702F7E /* Pods-LCCChinaIP_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74056DA0D69E84B495A129100C2065EA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5013556E612F7A95DEBF8BC31E89AE3E /* LCCChinaIP.podspec */,
+				D49933B30CA7EF5FDD5D3EA792D410D0 /* LICENSE */,
+				6B2562F3CD4E65854EC0355A3C670072 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A7AC5B39D700E7A6CB9BB7E2F13D7917 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1BFD1CA080F88EF2B59B3D5DF3D0204 /* LCCChinaIP.modulemap */,
+				50ABF2FA97C0D710EFEB4F6F97C06E9F /* LCCChinaIP-dummy.m */,
+				D4C85029812DCC3888152D5E78F26E98 /* LCCChinaIP-prefix.pch */,
+				9C54F3AFA981B0868EA0CD535439F733 /* LCCChinaIP-umbrella.h */,
+				DAEA97307CB2BDDF7D944DF0DC6CC5C1 /* LCCChinaIP.debug.xcconfig */,
+				DB0D0AFE262D439E65D5BA514E23632F /* LCCChinaIP.release.xcconfig */,
+				1A8AE2BC5FB7FE7C41786923B9D06B49 /* ResourceBundle-LCCChinaIP-LCCChinaIP-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LCCChinaIP";
+			sourceTree = "<group>";
+		};
+		ADA42CEE4A9599F9A1DF569D733BEDFD /* Pods-LCCChinaIP_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				77CEF060B0C7017D5DF80CDAC04370B8 /* Pods-LCCChinaIP_Tests-acknowledgements.markdown */,
+				81C48507437253F58BB2E6BC46954F0F /* Pods-LCCChinaIP_Tests-acknowledgements.plist */,
+				D428522BAB3BBB34BF9ABB58DA0D73E3 /* Pods-LCCChinaIP_Tests-dummy.m */,
+				D711D8196A176F58AD321797E3AB2EE8 /* Pods-LCCChinaIP_Tests.debug.xcconfig */,
+				F2740C74963E610243B56F3D0D58744B /* Pods-LCCChinaIP_Tests.release.xcconfig */,
+			);
+			name = "Pods-LCCChinaIP_Tests";
+			path = "Target Support Files/Pods-LCCChinaIP_Tests";
+			sourceTree = "<group>";
+		};
+		B5E408068285537B8A0621807EFDD1F6 /* Pods-LCCChinaIP_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7C2FFCBCB8C1ED05C6938BEC9172A /* Pods-LCCChinaIP_Example.modulemap */,
+				BE02A6EE41BCE968DE351E5BEB2FA1A8 /* Pods-LCCChinaIP_Example-acknowledgements.markdown */,
+				B2169356B2C07322B765F08B1C085B2D /* Pods-LCCChinaIP_Example-acknowledgements.plist */,
+				4248BC1ED4E73A7503BE4751B2F65DE2 /* Pods-LCCChinaIP_Example-dummy.m */,
+				81AFE3FE531F532BBFF0193AF41AAE74 /* Pods-LCCChinaIP_Example-resources.sh */,
+				C254A544B0FBFC72864A31BCE24A13C9 /* Pods-LCCChinaIP_Example-umbrella.h */,
+				5335AADA8468231B8C13F9FA707CC3B5 /* Pods-LCCChinaIP_Example.debug.xcconfig */,
+				4AEDAA1E3A5C3C84513B5B6DDE60CEBD /* Pods-LCCChinaIP_Example.release.xcconfig */,
+			);
+			name = "Pods-LCCChinaIP_Example";
+			path = "Target Support Files/Pods-LCCChinaIP_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				405F250A954C385D64A877FFFB8938E1 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				45079FBDE81EF27A216C524C4AED2F3F /* Products */,
+				1683B2614720C10B87B35507921909FC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		600143A99E2A3644EEFA3CBB7BA2C1AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4CF61847EB68717AE8009C108A9C37 /* LCCChinaIP-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69651AF633376E9B56B9C758B889D8CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F75B17F8C8B724C8A9E7F9E72CC647 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B15514F7BD84599EBAAA5FACD0E9D1C /* Pods-LCCChinaIP_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24044066A129995D51C4C7BE45F7977B /* Pods-LCCChinaIP_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EBFCFC872B9C3ACD8EDDD1F561A9936 /* Build configuration list for PBXNativeTarget "Pods-LCCChinaIP_Example" */;
+			buildPhases = (
+				B1F75B17F8C8B724C8A9E7F9E72CC647 /* Headers */,
+				C317966D3B60FA1BD9EE03AE38C0D839 /* Sources */,
+				C2BB7976D69B584DC9BCE9C765E2E43C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC21B2E25279FF6E31695E294902114 /* PBXTargetDependency */,
+			);
+			name = "Pods-LCCChinaIP_Example";
+			productName = "Pods-LCCChinaIP_Example";
+			productReference = 6B0955916A908844C45592C796B95D56 /* Pods-LCCChinaIP_Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+		86C8C4ACAEA559006CA3E3581A6C4DB9 /* LCCChinaIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223432F5BC32CD52D5D77D40AF5EB97C /* Build configuration list for PBXNativeTarget "LCCChinaIP" */;
+			buildPhases = (
+				600143A99E2A3644EEFA3CBB7BA2C1AF /* Headers */,
+				763BCABC6A61182DF5C31DB7212EB147 /* Sources */,
+				CF978967544A71624DC917EA896C3AEE /* Frameworks */,
+				34FEFE5915CC196ABB4046E02F5ADC77 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				039A54AC8028196A47ECD175A9AC0FCA /* PBXTargetDependency */,
+			);
+			name = LCCChinaIP;
+			productName = LCCChinaIP;
+			productReference = B9B68EF9EBBB8BAA04A23D77CF07F830 /* LCCChinaIP */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8948FB5904812930DC395DED24D78F8F /* LCCChinaIP-LCCChinaIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D76DF69F990A1FC040FC37A731F15867 /* Build configuration list for PBXNativeTarget "LCCChinaIP-LCCChinaIP" */;
+			buildPhases = (
+				5F8CD90A4BC7F20326D25A04EB7335B7 /* Sources */,
+				2BC2396BC51E9D1FC779B4F8514005B6 /* Frameworks */,
+				B47C95FCD00B3934C8C8A1279ECE9689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LCCChinaIP-LCCChinaIP";
+			productName = LCCChinaIP;
+			productReference = F8A54C1F798F697C4A30A6AB19163E4B /* LCCChinaIP-LCCChinaIP */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A56094017103D45DF3A7F1725240C76F /* Pods-LCCChinaIP_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB2E16A189572E6D5E5AA758B67F01C /* Build configuration list for PBXNativeTarget "Pods-LCCChinaIP_Tests" */;
+			buildPhases = (
+				69651AF633376E9B56B9C758B889D8CC /* Headers */,
+				C3081A6F66DA5859171DD602F905275C /* Sources */,
+				956D53C87A8B989556924D3196232153 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F166730F96540C164220E3640EAE55D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-LCCChinaIP_Tests";
+			productName = "Pods-LCCChinaIP_Tests";
+			productReference = B42C5208822320EF76C2722F11702F7E /* Pods-LCCChinaIP_Tests */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 45079FBDE81EF27A216C524C4AED2F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C8C4ACAEA559006CA3E3581A6C4DB9 /* LCCChinaIP */,
+				8948FB5904812930DC395DED24D78F8F /* LCCChinaIP-LCCChinaIP */,
+				24044066A129995D51C4C7BE45F7977B /* Pods-LCCChinaIP_Example */,
+				A56094017103D45DF3A7F1725240C76F /* Pods-LCCChinaIP_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B47C95FCD00B3934C8C8A1279ECE9689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06234870F347D05EFE481AD4F62BCCA2 /* IPSource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34FEFE5915CC196ABB4046E02F5ADC77 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/LCCChinaIP/LCCChinaIP.modulemap",
+				"${PODS_ROOT}/Headers/Public/LCCChinaIP/LCCChinaIP-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/LCCChinaIP-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/LCCChinaIP/LCCChinaIP.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/LCCChinaIP/LCCChinaIP-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F8CD90A4BC7F20326D25A04EB7335B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763BCABC6A61182DF5C31DB7212EB147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5F19608F10D1602F86B8EB3E8AE31A /* IPTools.swift in Sources */,
+				95B4B167DF6B4CB63A852388C12750AA /* LCCChinaIP.swift in Sources */,
+				CEE94E260CF981257C22AE8806F98F91 /* LCCChinaIP-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3081A6F66DA5859171DD602F905275C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E532EF0B12D487F3E4F313B05383055C /* Pods-LCCChinaIP_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C317966D3B60FA1BD9EE03AE38C0D839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE184063C315F04D695DC2060E06533F /* Pods-LCCChinaIP_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		039A54AC8028196A47ECD175A9AC0FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LCCChinaIP-LCCChinaIP";
+			target = 8948FB5904812930DC395DED24D78F8F /* LCCChinaIP-LCCChinaIP */;
+			targetProxy = C6EB7DBB880D5E8E2ED2A321633623C7 /* PBXContainerItemProxy */;
+		};
+		1AC21B2E25279FF6E31695E294902114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LCCChinaIP;
+			target = 86C8C4ACAEA559006CA3E3581A6C4DB9 /* LCCChinaIP */;
+			targetProxy = 0824AFB594BDA89944A8A21D0A29484B /* PBXContainerItemProxy */;
+		};
+		F166730F96540C164220E3640EAE55D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LCCChinaIP_Example";
+			target = 24044066A129995D51C4C7BE45F7977B /* Pods-LCCChinaIP_Example */;
+			targetProxy = D732ECB5D711003A03BC08A228B3A4D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16689B2650C2D388C1597FD7BD3645A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAEA97307CB2BDDF7D944DF0DC6CC5C1 /* LCCChinaIP.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LCCChinaIP/LCCChinaIP-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/LCCChinaIP/LCCChinaIP.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LCCChinaIP;
+				PRODUCT_NAME = LCCChinaIP;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2842177D3D4EF02BCA7900BAD81CAE28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0D0AFE262D439E65D5BA514E23632F /* LCCChinaIP.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LCCChinaIP/LCCChinaIP-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/LCCChinaIP/LCCChinaIP.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LCCChinaIP;
+				PRODUCT_NAME = LCCChinaIP;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		487FF900B5D4A6C0610397923549AF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAEA97307CB2BDDF7D944DF0DC6CC5C1 /* LCCChinaIP.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LCCChinaIP";
+				IBSC_MODULE = LCCChinaIP;
+				INFOPLIST_FILE = "Target Support Files/LCCChinaIP/ResourceBundle-LCCChinaIP-LCCChinaIP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LCCChinaIP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5645558C2B8A845EB3E13CFA843458D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5335AADA8468231B8C13F9FA707CC3B5 /* Pods-LCCChinaIP_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCCChinaIP_Example/Pods-LCCChinaIP_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59B440B33BF54925092FCB5CB9983B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D711D8196A176F58AD321797E3AB2EE8 /* Pods-LCCChinaIP_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A73E4A990AEFA4ADD3FE8671B811456E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2740C74963E610243B56F3D0D58744B /* Pods-LCCChinaIP_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DCA90BB61A6AA7AA5B95D58EA4FF8329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEDAA1E3A5C3C84513B5B6DDE60CEBD /* Pods-LCCChinaIP_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCCChinaIP_Example/Pods-LCCChinaIP_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCB6A2570721BCCCC7EF117E0A0B23A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0D0AFE262D439E65D5BA514E23632F /* LCCChinaIP.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LCCChinaIP";
+				IBSC_MODULE = LCCChinaIP;
+				INFOPLIST_FILE = "Target Support Files/LCCChinaIP/ResourceBundle-LCCChinaIP-LCCChinaIP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LCCChinaIP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		223432F5BC32CD52D5D77D40AF5EB97C /* Build configuration list for PBXNativeTarget "LCCChinaIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16689B2650C2D388C1597FD7BD3645A0 /* Debug */,
+				2842177D3D4EF02BCA7900BAD81CAE28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB2E16A189572E6D5E5AA758B67F01C /* Build configuration list for PBXNativeTarget "Pods-LCCChinaIP_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B440B33BF54925092FCB5CB9983B58 /* Debug */,
+				A73E4A990AEFA4ADD3FE8671B811456E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EBFCFC872B9C3ACD8EDDD1F561A9936 /* Build configuration list for PBXNativeTarget "Pods-LCCChinaIP_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5645558C2B8A845EB3E13CFA843458D0 /* Debug */,
+				DCA90BB61A6AA7AA5B95D58EA4FF8329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D76DF69F990A1FC040FC37A731F15867 /* Build configuration list for PBXNativeTarget "LCCChinaIP-LCCChinaIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487FF900B5D4A6C0610397923549AF09 /* Debug */,
+				FCB6A2570721BCCCC7EF117E0A0B23A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

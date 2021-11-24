@@ -1,0 +1,6 @@
+framework module Pods_LCCChinaIP_Tests {
+  umbrella header "Pods-LCCChinaIP_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
