@@ -25,7 +25,8 @@ class ViewController: UIViewController {
         LCCChinaIP.isChinaIP { isChinaIP in
             print(isChinaIP)
         }
-        LCCChinaIP.isChinaIP(ip: "1.1.1.1")
+        let ret = LCCChinaIP.isChinaIP(ip: "1.1.1.1")
+        print(ret)
     }
 }
 

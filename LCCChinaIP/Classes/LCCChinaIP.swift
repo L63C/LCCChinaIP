@@ -34,7 +34,7 @@ public class LCCChinaIP: NSObject {
             let fromV = range["fromV"] as! Int64
             let toV = range["toV"] as! Int64
             if ipV >= fromV && ipV <= toV {
-                print("this IP \(ip) is chain ip.rang:\(from)~\(to)")
+                print("this IP \(ip) is chain ip.range:\(from)~\(to)")
                 return true
                 
             }
