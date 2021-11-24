@@ -7,7 +7,6 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 自动获取手机的ip地址，并判断是否为中国IP
 ```
         LCCChinaIP.isChinaIP { isChinaIP in
