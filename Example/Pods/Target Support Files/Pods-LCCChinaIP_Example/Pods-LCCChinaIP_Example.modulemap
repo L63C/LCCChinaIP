@@ -1,4 +1,4 @@
-module Pods_LCCChinaIP_Example {
+framework module Pods_LCCChinaIP_Example {
   umbrella header "Pods-LCCChinaIP_Example-umbrella.h"
 
   export *
